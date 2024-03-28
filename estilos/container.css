@@ -1,0 +1,35 @@
+/* Contenedores */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container-fluid {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-lg {
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Tamaño de contenedor mediano */
+  .container-md {
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Tamaño de contenedor pequeño */
+  .container-sm {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  

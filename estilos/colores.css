@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #007bff;
+  --primary-color-hover: #0056b3;
+
+  --secondary-color: #6c757d;
+  --secondary-color-hover: #495057;
+
+  --success-color: #28a745;
+  --success-color-hover: #218838;
+
+  --danger-color: #dc3545;
+  --danger-color-hover: #c82333;
+
+  --warning-color: #ffc107;
+  --warning-color-hover: #d39e00;
+
+  --info-color: #17a2b8;
+  --info-color-hover: #138496;
+
+  --light-color: #f8f9fa;
+  --light-color-hover: #dae0e5;
+
+  --dark-color: #343a40;
+  --dark-color-hover: #23272b;
+}
+
+
+/* Colores de fondo */
+.bg-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .bg-secondary {
+    background-color: var(--secondary-color);
+  }
+  
+  .bg-success {
+    background-color: var(--success-color);
+  }
+  
+  .bg-danger {
+    background-color: var(--danger-color);
+  }
+  
+  .bg-warning {
+    background-color: var(--warning-color);
+    color: #212529; /* Texto oscuro */
+  }
+  
+  .bg-info {
+    background-color: var(--info-color);
+  }
+  
+  .bg-light {
+    background-color: var(--light-color);
+  }
+  
+  .bg-dark {
+    background-color: var(--dark-color);
+  }
+  
+
+
+
+
+
+  /* Clases de color de texto */
+  .text-primary {
+    color: var(--primary-color);
+  }
+  
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+  
+  .text-success {
+    color: var(--success-color);
+  }
+  
+  .text-danger {
+    color: var(--danger-color);
+  }
+  
+  .text-warning {
+    color: var(--warning-color);
+  }
+  
+  .text-info {
+    color: var(--info-color);
+  }
+  
+  .text-light {
+    color: var(--light-color);
+  }
+  
+  .text-dark {
+    color: var(--dark-color);
+  }
+  
+
+
+
+  /* Estilo hover para la clase hover-primary */
+.hover-primary:hover {
+  background-color: var(
+    --primary-color-hover
+  ); /* Color de fondo primario al hacer hover */
+}
+
+/* Estilo hover para la clase hover-secondary */
+.bg-hover-secondary:hover {
+  background-color: var(
+    --secondary-color-hover
+  ); /* Color de fondo secundario al hacer hover */
+}
+
+/* Estilo hover para la clase hover-success */
+.hover-success:hover {
+  background-color: var(
+    --success-color-hover
+  ); /* Color de fondo de éxito al hacer hover */
+}
+
+/* Estilo hover para la clase hover-danger */
+.hover-danger:hover {
+  background-color: var(
+    --danger-color-hover
+  ); /* Color de fondo de peligro al hacer hover */
+}
+
+/* Estilo hover para la clase hover-warning */
+.hover-warning:hover {
+  background-color: var(
+    --warning-color-hover
+  ); /* Color de fondo de advertencia al hacer hover */
+}
+
+/* Estilo hover para la clase hover-info */
+.hover-info:hover {
+  background-color: var(
+    --info-color-hover
+  ); /* Color de fondo de información al hacer hover */
+}
+
+/* Estilo hover para la clase hover-light */
+.hover-light:hover {
+  background-color: var(
+    --light-color-hover
+  ); /* Color de fondo claro al hacer hover */
+}
+
+/* Estilo hover para la clase hover-dark */
+.hover-dark:hover {
+  background-color: var(
+    --dark-color-hover
+  ); /* Color de fondo oscuro al hacer hover */
+}

@@ -1,0 +1,52 @@
+@import url("colores.css");
+@import url("medidas.css");
+@import url("margin.css");
+@import url("padding.css");
+
+@import url("rounded.css");
+@import url("font-size.css");
+@import url("font-family.css");
+@import url("shadow.css");
+@import url("border.css");
+
+@import url("container.css");
+@import url("grid.css");
+@import url("card.css");
+@import url("botones.css");
+@import url("navbar.css");
+@import url("img.css");
+
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: var(--f-family);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+
+
+

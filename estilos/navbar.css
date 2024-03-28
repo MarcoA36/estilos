@@ -1,0 +1,67 @@
+/* Estilos generales del navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+/* Estilos del botón de menú */
+.toggle-menu {
+  display: none; /* Ocultar botón de menú por defecto */
+}
+
+/* Estilos del menú desplegable */
+.menu {
+  display: flex;
+}
+
+.menu li {
+  padding: 0 10px;
+  /* font-weight: 700; */
+  cursor: pointer;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: relative;
+  }
+  .menu {
+    flex-direction: column; /* Cambiar a una columna en pantallas pequeñas */
+    position: absolute; /* Asegurar que el menú esté posicionado correctamente */
+    top: 100%; /* Posicionar el menú debajo del botón de menú */
+    left: 0; /* Alinear el menú a la izquierda */
+    background-color: #333; /* Color de fondo para el menú */
+    display: none; /* Ocultar menú desplegable en pantallas pequeñas */
+  }
+
+  .active {
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: calc(100%);
+    left: 0;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    z-index: 1000;
+    background-color: inherit;
+    border-radius: inherit;
+    padding: 10px;
+  }
+
+
+  .toggle-menu {
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-size: 22px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,23 @@
+:root {
+    --f-family: Arial, Helvetica, sans-serif;
+    --f-family-2: 'Courier New', Courier, monospace;
+    --f-family-3: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+
+
+  .family-1 {
+    font-family: var(--f-family);
+  }
+  
+  .family-2 {
+    font-family: var(--f-family-2);
+  }
+  
+  .family-3 {
+    font-family: var(--f-family-3);
+  }
+  
+  .family-4 {
+    font-family: "Times New Roman", Times, serif;
+  }

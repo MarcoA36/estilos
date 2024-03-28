@@ -1,0 +1,104 @@
+/* Bordes con color primario */
+.border-1-primary {
+    border: 1px solid var(--primary-color) !important;
+  }
+  
+  .border-2-primary {
+    border: 2px solid var(--primary-color) !important;
+  }
+  
+  .border-3-primary {
+    border: 3px solid var(--primary-color) !important;
+  }
+  
+  /* Bordes con color secundario */
+  .border-1-secondary {
+    border: 1px solid var(--secondary-color) !important;
+  }
+  
+  .border-2-secondary {
+    border: 2px solid var(--secondary-color) !important;
+  }
+  
+  .border-3-secondary {
+    border: 3px solid var(--secondary-color) !important;
+  }
+  
+  /* Bordes con color de éxito */
+  .border-1-success {
+    border: 1px solid var(--success-color) !important;
+  }
+  
+  .border-2-success {
+    border: 2px solid var(--success-color) !important;
+  }
+  
+  .border-3-success {
+    border: 3px solid var(--success-color) !important;
+  }
+  
+  /* Bordes con color de peligro */
+  .border-1-danger {
+    border: 1px solid var(--danger-color) !important;
+  }
+  
+  .border-2-danger {
+    border: 2px solid var(--danger-color) !important;
+  }
+  
+  .border-3-danger {
+    border: 3px solid var(--danger-color) !important;
+  }
+  
+  /* Bordes con color de advertencia */
+  .border-1-warning {
+    border: 1px solid var(--warning-color) !important;
+  }
+  
+  .border-2-warning {
+    border: 2px solid var(--warning-color) !important;
+  }
+  
+  .border-3-warning {
+    border: 3px solid var(--warning-color) !important;
+  }
+  
+  /* Bordes con color de información */
+  .border-1-info {
+    border: 1px solid var(--info-color) !important;
+  }
+  
+  .border-2-info {
+    border: 2px solid var(--info-color) !important;
+  }
+  
+  .border-3-info {
+    border: 3px solid var(--info-color) !important;
+  }
+  
+  /* Bordes con color claro */
+  .border-1-light {
+    border: 1px solid var(--light-color) !important;
+  }
+  
+  .border-2-light {
+    border: 2px solid var(--light-color) !important;
+  }
+  
+  .border-3-light {
+    border: 3px solid var(--light-color) !important;
+  }
+  
+  /* Bordes con color oscuro */
+  .border-1-dark {
+    border: 1px solid var(--dark-color) !important;
+  }
+  
+  .border-2-dark {
+    border: 2px solid var(--dark-color) !important;
+  }
+  
+  .border-3-dark {
+    border: 3px solid var(--dark-color) !important;
+  }
+  
