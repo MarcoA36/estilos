@@ -1,0 +1,52 @@
+/* Estilos generales del formulario */
+.form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Centrar el formulario horizontalmente */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: var(--dark-color);
+  }
+  
+  /* Estilos para los inputs dentro del formulario */
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"],
+  .form textarea {
+    width: 100%;
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  /* Estilos para el botón de envío */
+  .form input[type="submit"] {
+    background-color: var(--primary-color); /* Color de fondo */
+    color: #fff; /* Color del texto */
+    width: 100%;
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor apuntador */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: var(--primary-color-hover); /* Color de fondo al pasar el ratón */
+  }
+  
+
+.form label {
+   font-size: 16px;
+   color: white;
+}
+  
