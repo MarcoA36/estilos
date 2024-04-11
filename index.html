@@ -7,76 +7,114 @@
     <link rel="stylesheet" href="estilos/estilos.css" />
   </head>
   <body>
-    <!-- <section class="section__navbar">
-      <div class="container">
-        <h1 class="text-center family-2 fs-2">Navbar</h1>
-        <div class="navbar text-light bg-dark">
-          <div class="logo">
-            <h2>Logo</h2>
-          </div>
-          <button class="toggle-menu">☰</button>
-          <ul class="menu">
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 4</li>
-            <li>link 5</li>
-          </ul>
-        </div>
-
-        <div class="navbar text-light bg-success mt-1 rounded-2">
-          <div class="logo">
-            <h2>Logo</h2>
-          </div>
-          <button class="toggle-menu">☰</button>
-          <ul class="menu">
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 4</li>
-            <li>link 5</li>
-          </ul>
-        </div>
-      </div>
-    </section> -->
-
+    <!-- ///////////////////// -->
+    <!-- NAVBAR -->
+    <!-- ///////////////////// -->
     <section class="section__navbar">
-      <div class="container">
+      <div class="container my-5">
         <h1 class="text-center family-2 fs-2">Navbar</h1>
+
+        <!-- NAV 1 -->
         <div class="navbar text-light bg-dark">
           <div class="logo">
             <h2>Logo</h2>
           </div>
           <button class="toggle-menu">☰</button>
           <ul class="menu">
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 4</li>
-            <li>link 5</li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
           </ul>
         </div>
 
-        <div class="navbar text-light bg-success mt-1 rounded-2">
+        <!-- NAV 2 -->
+        <div class="navbar text-light bg-success mt-1 rounded-1">
+          <button class="toggle-menu">☰</button>
+          <ul class="menu">
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+          </ul>
+
+          <div class="logo">
+            <h2>Logo</h2>
+          </div>
+        </div>
+
+        <!-- NAV 1 -->
+        <div class="navbar link-dark mt-1">
+          <div class="logo">
+            <h2>Logo</h2>
+          </div>
+          <button class="toggle-menu">☰</button>
+          <ul class="menu bg-light">
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+          </ul>
+        </div>
+
+        <!-- NAV 2 -->
+        <nav class="navbar navbar-center text-light bg-success mt-1 rounded-1">
           <div class="logo">
             <h2>Logo</h2>
           </div>
           <button class="toggle-menu">☰</button>
           <ul class="menu">
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-            <li>link 9</li>
-            <li>link 10</li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
           </ul>
-        </div>
+        </nav>
+
+
+<nav class="navbar mt-1 bg-info">
+  <div class="logo">
+    <h2>Logo</h2>
+  </div>
+  <button class="toggle-menu">☰</button>
+  <ul class="menu">
+    <li><a href="#">link 1</a></li>
+    <li class="submenu">
+      <a href="#">link 2</a>
+      <ul class="sub-menu">
+        <li><a href="#">Sublink 1</a></li>
+        <li><a href="#">Sublink 2</a></li>
+        <li><a href="#">Sublink 3</a></li>
+      </ul>
+    </li>
+    <li class="submenu">
+      <a href="#">link 3</a>
+      <ul class="sub-menu">
+        <li><a href="#">Sublink 4</a></li>
+        <li><a href="#">Sublink 5</a></li>
+        <li><a href="#">Sublink 6</a></li>
+      </ul>
+    </li>
+    <li><a href="#">link 9</a></li>
+    <li><a href="#">link 10</a></li>
+  </ul>
+</nav>
+
       </div>
     </section>
 
-    <div class="seccion-cards">
+    <!-- ///////////////////// -->
+    <!-- CARDS -->
+    <!-- ///////////////////// -->
+
+    <div class="seccion-cards my-5">
       <h1 class="fs-2 text-center family-2">Cards</h1>
       <div class="container bg-primary">
-        <div class="grid-cont">
+        <div class="grid">
           <div class="card bg-info">
             <h2 class="fs-1">titulo</h2>
             <p>
@@ -97,7 +135,7 @@
             <button class="button">boton</button>
 
             <p class="bg-success p-1 rounded-3 shadow-1">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum, dolor sit amet consectetur adipisicing e lit.
               Inventore dolore labore soluta repellendus accusamus neque quod
               omnis eaque? Suscipit quas corrupti maiores fugit inventore
               incidunt impedit magnam nesciunt minima modi.
@@ -167,8 +205,81 @@
       </div>
     </div>
 
+    <section class="container my-5">
+      <h2 class="fs-2 text-center family-2">Grid</h2>
+      <div class="grid col-3 md-col-1">
+        <div class="card">card 1</div>
+        <div class="card">card 2</div>
+        <div class="card bg-dark text-light">card 3</div>
+        <div class="card">card 4</div>
+        <div class="card">card 5</div>
+        <div class="card">card 6</div>
+      </div>
+    </section>
+
+    <!-- <section class="container bg-warning my-5">
+      <h1>Modaless</h1>
+
+      <div class="flex justify-center align-center gap-2 width-500 m-auto p-2">
+        <div class="bg-dark text-light px-2 py-1 rounded-1">Modal 1</div>
+        <div class="bg-primary text-light px-2 py-1 rounded-1">Modal 2</div>
+        <div class="bg-danger text-light px-2 py-1 rounded-1">Modal 3</div>
+      </div>
+
+     
+    </section> -->
+    <section class="container bg-warning my-5">
+      <h1>Modales</h1>
+      <div class="flex justify-center align-center gap-2 width-500 m-auto p-2">
+        <div class="modal-1">
+          <button class="modal-btn button text-light bg-dark">Modal 1</button>
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close mr-1">&times;</span>
+              <div class="card bg-light p-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                deserunt nihil laboriosam doloremque, modi, necessitatibus iure,
+                quam ex doloribus vel dolor iusto inventore accusamus nostrum
+                dignissimos! Libero excepturi modi ducimus commodi error quis
+                voluptatum? Laudantium voluptatibus voluptas minus sequi
+                voluptate! Optio, eligendi. Dignissimos atque voluptatibus
+                aperiam laudantium veritatis voluptates tenetur neque illum
+                velit corporis. Numquam quod obcaecati corporis veniam illo.
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="modal-btn button text-light bg-primary">Modal 2</button>
+        <button class="modal-btn button text-light bg-danger">Modal 3</button>
+      </div>
+    </section>
+
+    <section class="container bg-primary mt-3">
+      <h1>Colores</h1>
+      <div class="font-size mt-3 p-2 rounded-1">
+        <p class="text-success bg-light fw-bold p-2 my-2">
+          text-success---bg-light
+        </p>
+        <p class="text-primary bg-light fw-bold p-2 my-2">text-primary</p>
+        <p class="text-dark bg-light fw-bold p-2 my-2">text-dark</p>
+        <p class="text-warning bg-dark fw-bold p-2 my-2">
+          text-warning---bg-dark
+        </p>
+        <p class="text-info bg-dark fw-bold p-2 my-2">text-info</p>
+        <p class="text-danger bg-warning fw-bold p-2 my-2">
+          text-danger---bg-warning
+        </p>
+      </div>
+    </section>
+
+    <section class="container bg-success mt-3">
+      <h1>Medidas</h1>
+    </section>
+
     <section class="container bg-secondary mt-3">
-      <h1 class="fs-2 text-center text-light family-2">Tamaños de fuente</h1>
+      <h1 class="fs-2 text-center text-light family-2">Fuentes</h1>
       <div class="font-size mt-3 p-2 rounded-1 bg-success text-light">
         <p class="fs-1">Display 1</p>
         <p class="fs-2">Display 2</p>
@@ -181,7 +292,7 @@
     <section class="container mt-3 bg-info rounded-2">
       <h1 class="fs-2 text-center text-dark family-1">Formularios</h1>
 
-      <form action="" class="form">
+      <form action="" class="form bg-success">
         <h3 class="text-light text-center mb-2 fs-3 family-3">Registro</h3>
         <input type="text" placeholder="Nombre" />
         <input type="text" placeholder="Apellido" />
@@ -189,16 +300,16 @@
         <input type="email" placeholder="Email" />
         <input type="text" placeholder="Usuario" />
         <input type="password" placeholder="Contraseña" />
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" class="bg-dark text-success" />
       </form>
       <form action="" class="form">
         <h3 class="text-light text-center mb-2 mb-2 fs-3 family-3">Login</h3>
         <input type="text" placeholder="Usuario" />
-          <input type="password" placeholder="Contraseña" />
+        <input type="password" placeholder="Contraseña" />
         <input type="submit" value="Ingresar" />
       </form>
     </section>
 
-    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

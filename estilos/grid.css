@@ -1,8 +1,83 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 20px;
+}
 
-/* Estilos para la rejilla de tarjetas */
-.grid-cont {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+
+.col-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.col-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+@media screen and (max-width: 992px) {
+  .md-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .md-col-2 {
+    grid-template-columns: repeat(2, 1fr);
   }
   
+  .md-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .md-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .md-col-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .md-col-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .sm-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sm-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .sm-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .sm-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .sm-col-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .sm-col-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}

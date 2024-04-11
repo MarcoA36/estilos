@@ -6,6 +6,14 @@
   padding: 10px 20px;
 }
 
+.navbar-center {
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
 .logo h2 {
   margin: 0;
 }
@@ -13,6 +21,7 @@
 /* Estilos del botón de menú */
 .toggle-menu {
   display: none; /* Ocultar botón de menú por defecto */
+  border-radius: 5px;
 }
 
 /* Estilos del menú desplegable */
@@ -24,6 +33,36 @@
   padding: 0 10px;
   /* font-weight: 700; */
   cursor: pointer;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-dark ul li a {
+  color: var(--dark-color);
+  font-weight: bold;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #555;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.sub-menu li {
+  display: block;
+}
+
+.sub-menu li a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Media query para pantallas pequeñas */
@@ -48,7 +87,7 @@
     top: calc(100%);
     left: 0;
     display: flex;
-    gap:10px;
+    gap: 10px;
     flex-direction: column;
     z-index: 1000;
     background-color: inherit;
@@ -56,12 +95,16 @@
     padding: 10px;
   }
 
-
   .toggle-menu {
     display: inline-block;
     background-color: var(--dark-color);
     color: var(--light-color);
     font-size: 22px;
     padding: 8px;
+  }
+
+  .navbar-center {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

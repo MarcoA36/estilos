@@ -1,19 +1,37 @@
-.width-100 {
-    width: 100px;
+.w-100 {
+  max-width: 100px;
 }
 
-.width-200 {
-    width: 200px;
+.w-200 {
+  max-width: 200px;
 }
 
-.width-300 {
-    width: 300px;
+.w-300 {
+  max-width: 300px !important;
 }
 
-.width-500 {
-    width: 500px;
+.w-500 {
+  max-width: 400px !important;
 }
 
 .width-700 {
-    width: 700px;
+  width: 700px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+/*GAP*/
+
+.gap-1 {
+  gap: 10px;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
+.gap-3 {
+  gap: 30px;
 }

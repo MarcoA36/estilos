@@ -5,17 +5,29 @@
 
 @import url("rounded.css");
 @import url("font-size.css");
+@import url("font-weight.css");
 @import url("font-family.css");
 @import url("shadow.css");
 @import url("border.css");
 
 @import url("container.css");
 @import url("grid.css");
+@import url("flex.css");
 @import url("card.css");
 @import url("botones.css");
 @import url("navbar.css");
 @import url("img.css");
 @import url("forms.css");
+@import url("modales.css");
+
+
+:root {
+  --m-1: 10px;
+  --m-2: 16px;
+  --m-3: 24px;
+  --m-4: 32px;
+  --m-5: 48px;
+}
 
 
 
@@ -40,6 +52,7 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .text-center {
