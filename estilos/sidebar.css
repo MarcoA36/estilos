@@ -5,7 +5,8 @@
     position: fixed;
     top: 0;
     left: -250px; 
-    background-color: #28a745; 
+    /* background-color: #28a745;  */
+    background-color: rgb(76, 160, 249);
     display: flex;
     flex-direction: column;
     padding: 10px;
