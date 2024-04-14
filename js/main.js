@@ -72,6 +72,24 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+// SIDEBAR
+
+   const toggleBtn = document.getElementById('toggle-sidebar');
+   const sidebar = document.getElementById('sidebar');
+   const closeBtn = document.getElementById('close-sidebar')
+
+   function toggleSidebar() {
+       sidebar.classList.toggle('open');
+       console.log('clase')
+   }
+   function closeSidebar() {
+    sidebar.classList.toggle('open');
+    console.log('clase')
+}
+
+toggleBtn.addEventListener('click', toggleSidebar);
+closeBtn.addEventListener('click', closeSidebar);
+
 
 
 

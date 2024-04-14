@@ -16,9 +16,11 @@
 @import url("card.css");
 @import url("botones.css");
 @import url("navbar.css");
+@import url("sidebar.css");
 @import url("img.css");
 @import url("forms.css");
 @import url("modales.css");
+@import url("banner.css");
 
 
 :root {

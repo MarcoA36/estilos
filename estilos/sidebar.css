@@ -1,0 +1,72 @@
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    background-color: #28a745; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto; 
+    transition: left 0.3s;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar .logo {
+    cursor: pointer;
+}
+
+/* Estilo para el botón de alternar */
+.sidebar .toggle-menu {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10; /* Asegura que el botón esté siempre visible */
+    cursor: pointer;
+}
+
+/* Estilos para la lista de enlaces */
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.sidebar .menu li {
+    margin: 10px 0;
+}
+
+/* Estilos para los enlaces */
+.sidebar .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+#close-sidebar {
+    cursor: pointer;
+}
+
+
+/* Personalización de la barra de desplazamiento (scroll) en la barra lateral */
+.sidebar::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f2f2f2; /* Color del fondo de la barra de desplazamiento */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #0f0f1042; /* Color del control de la barra de desplazamiento */
+    border-radius: 4px;
+
+}
+

@@ -1,0 +1,58 @@
+.banner {
+  display: flex;
+  height: 100%;
+  min-height: 60vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.banner .banner-section {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .banner-section.left {
+    text-align: left;
+}
+
+
+.banner-section.right {
+    text-align: right;
+} */
+
+.banner .cta-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.banner .cta-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+      }
+  }
+  

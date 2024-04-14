@@ -14,35 +14,35 @@
 
 
 
-.logo h2 {
+.navbar .logo h2 {
   margin: 0;
 }
 
 /* Estilos del botón de menú */
-.toggle-menu {
+.navbar .toggle-menu {
   display: none; /* Ocultar botón de menú por defecto */
   border-radius: 5px;
 }
 
 /* Estilos del menú desplegable */
-.menu {
+.navbar .menu {
   display: flex;
 }
 
-.menu li {
+.navbar .menu li {
   padding: 0 10px;
   /* font-weight: 700; */
   cursor: pointer;
 }
 
-.menu li a {
+.navbar .menu li a {
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
 
-.link-dark ul li a {
+.navbar .link-dark ul li a {
   color: var(--dark-color);
   font-weight: bold;
 }
@@ -70,7 +70,7 @@
   .navbar {
     position: relative;
   }
-  .menu {
+  .navbar .menu {
     flex-direction: column; /* Cambiar a una columna en pantallas pequeñas */
     position: absolute; /* Asegurar que el menú esté posicionado correctamente */
     top: 100%; /* Posicionar el menú debajo del botón de menú */
@@ -79,7 +79,7 @@
     display: none; /* Ocultar menú desplegable en pantallas pequeñas */
   }
 
-  .active {
+  .navbar .active {
     margin: 0;
     box-sizing: border-box;
     position: absolute;
@@ -95,7 +95,7 @@
     padding: 10px;
   }
 
-  .toggle-menu {
+  .navbar .toggle-menu {
     display: inline-block;
     background-color: var(--dark-color);
     color: var(--light-color);

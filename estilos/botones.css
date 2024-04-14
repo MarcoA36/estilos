@@ -8,10 +8,19 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* Estilos para el botón cuando se le pasa el mouse por encima */
 .button:hover {
   background-color: var(--primary-color-hover);
+}
+
+.toggle-menu,
+.toggle-sidebar {
+  display: inline-block;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-size: 22px;
+  padding: 8px;
 }

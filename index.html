@@ -45,18 +45,18 @@
           </div>
         </div>
 
-        <!-- NAV 1 -->
+        <!-- NAV 3 -->
         <div class="navbar link-dark mt-1">
           <div class="logo">
             <h2>Logo</h2>
           </div>
           <button class="toggle-menu">☰</button>
           <ul class="menu bg-light">
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
+            <li><a href="#" class="text-dark">link</a></li>
+            <li><a href="#" class="text-dark">link</a></li>
+            <li><a href="#" class="text-dark">link</a></li>
+            <li><a href="#" class="text-dark">link</a></li>
+            <li><a href="#" class="text-dark">link</a></li>
           </ul>
         </div>
 
@@ -75,35 +75,115 @@
           </ul>
         </nav>
 
+        <nav class="navbar mt-1 bg-info">
+          <div class="logo">
+            <h2>Logo</h2>
+          </div>
+          <button class="toggle-menu">☰</button>
+          <ul class="menu">
+            <li><a href="#">link 1</a></li>
+            <li class="submenu">
+              <a href="#">link 2</a>
+              <ul class="sub-menu">
+                <li><a href="#">Sublink 1</a></li>
+                <li><a href="#">Sublink 2</a></li>
+                <li><a href="#">Sublink 3</a></li>
+              </ul>
+            </li>
+            <li class="submenu">
+              <a href="#">link 3</a>
+              <ul class="sub-menu">
+                <li><a href="#">Sublink 4</a></li>
+                <li><a href="#">Sublink 5</a></li>
+                <li><a href="#">Sublink 6</a></li>
+              </ul>
+            </li>
+            <li><a href="#">link 9</a></li>
+            <li><a href="#">link 10</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
 
-<nav class="navbar mt-1 bg-info">
-  <div class="logo">
-    <h2>Logo</h2>
-  </div>
-  <button class="toggle-menu">☰</button>
-  <ul class="menu">
-    <li><a href="#">link 1</a></li>
-    <li class="submenu">
-      <a href="#">link 2</a>
-      <ul class="sub-menu">
-        <li><a href="#">Sublink 1</a></li>
-        <li><a href="#">Sublink 2</a></li>
-        <li><a href="#">Sublink 3</a></li>
+    <!-- ///////////////////// -->
+    <!-- SIDEBAR-->
+    <!-- ///////////////////// -->
+    <section class="seccion_sidebar container">
+      <h2 class="fs-2 text-center family-2">Sidebar</h2>
+      <button id="toggle-sidebar" class="toggle-sidebar">☰</button>
+    </section>
+    <div class="sidebar bg-success rounded-1" id="sidebar">
+      <i id="close-sidebar">✖</i>
+      <div class="logo">
+        <h2 class="family-3 text-center">Sidebar</h2>
+      </div>
+      <div class="family-2 text-center">
+        <ul>
+          <li>datos de usuario</li>
+          <li>Nombre</li>
+        </ul>
+      </div>
+      <ul class="menu text-center border-1-dark rounded-1 my-2">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
       </ul>
-    </li>
-    <li class="submenu">
-      <a href="#">link 3</a>
-      <ul class="sub-menu">
-        <li><a href="#">Sublink 4</a></li>
-        <li><a href="#">Sublink 5</a></li>
-        <li><a href="#">Sublink 6</a></li>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+        pariatur.
+      </p>
+      <input type="search" placeholder="buscar" class="rounded-1 p-1 my-2" />
+      <ul class="menu bg-info rounded-2 text-center">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
       </ul>
-    </li>
-    <li><a href="#">link 9</a></li>
-    <li><a href="#">link 10</a></li>
-  </ul>
-</nav>
+    </div>
 
+    <!-- ///////////////////// -->
+    <!-- BANNER -->
+    <!-- ///////////////////// -->
+    <section class="section_banner container">
+      <h2 class="fs-2 text-center family-2">BANNER</h2>
+      <div class="banner bg-secondary">
+        <!-- Sección izquierda del banner -->
+        <div class="banner-section left">
+          <h2>Información Importante</h2>
+          <p>
+            Aquí puedes poner una descripción o información relevante sobre tu
+            producto o servicio.
+          </p>
+        </div>
+
+        <!-- Sección derecha del banner -->
+        <div class="banner-section right">
+          <h2>Llamado a la Acción</h2>
+          <p>Aquí puedes poner un llamado a la acción o una oferta especial.</p>
+          <button class="cta-button">Comprar Ahora</button>
+        </div>
+      </div>
+
+
+      <div class="banner mt-3">
+        <!-- Sección izquierda del banner -->
+        <div class="banner-section left">
+          <h2>Información Importante</h2>
+          <p>
+            Aquí puedes poner una descripción o información relevante sobre tu
+            producto o servicio.
+          </p>
+        </div>
+
+        <!-- Sección derecha del banner -->
+        <div class="banner-section right">
+          <h2>Llamado a la Acción</h2>
+          <p>Aquí puedes poner un llamado a la acción o una oferta especial.</p>
+          <button class="button bg-primary text-light">Comprar Ahora</button>
+        </div>
       </div>
     </section>
 
@@ -245,7 +325,6 @@
                 voluptate! Optio, eligendi. Dignissimos atque voluptatibus
                 aperiam laudantium veritatis voluptates tenetur neque illum
                 velit corporis. Numquam quod obcaecati corporis veniam illo.
-
               </div>
             </div>
           </div>
